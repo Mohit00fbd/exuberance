@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: alex;
+	src: url(alex.ttf);
+}
+@font-face{
+	font-family: open;
+	src: url(open.ttf)
+}
+#home {
+	background-image: url(../images/party.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#title{
+	font-family: alex;
+	color: white;
+	font-size: 10em;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	line-height: 0.6;
+	transform: translate(-50%,-50%);
+}
+#itf {
+	font-size: 0.25em;
+	position: relative;
+	left: 70%;
+}
+#links-home{
+	text-decoration:none;
+	position:relative;
+	float: left;
+	display:inline-block;
+	font-family:open;
+	font-size:0.18em;
+	line-height: 3;
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+	-webkit-transition: all 0.5s ease-out 0s;
+	-o-transition: all 0.5s ease-out 0s;
+	transition: all 0.5s ease-out 0s;
+	padding: 10px;
+}
+a:hover {
+	background-color: rgba(194,123,2,1.00);
+	
+}
