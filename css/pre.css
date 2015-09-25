@@ -126,11 +126,3 @@
     -webkit-transition: all 0.3s 0.3s ease-out; 
             transition: all 0.3s 0.3s ease-out;
 }
-.logol {
-	height: 100px;
-	width: 100px;
-	position: fixed;
-	z-index: 2000;
-	left:46.5%;
-	top:45%;
-}
