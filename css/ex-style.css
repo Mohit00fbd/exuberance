@@ -93,16 +93,17 @@ margin-top: 20%;
 margin-left: 20%;
 
 }
-.para{ font-family: AR CENA, arial;
+.para{ font-family: AR CENA, Segoe UI Symbol,Arial Rounded MT Bold,calibri(body);
 text-align:left;
-font-size: 1.3em;
+font-size: 22px;
 color: white; }
 
-#eventtag
-{
-font-size: 1.3em;
-}
+#eventtag{
+font-family: AR CENA, calibri(body);
+color: white;
+font-size: 1.2em;
 
+}
 .text>a:hover{background:transparent;
 }
 .menu > ul > li > a:hover { 
@@ -111,21 +112,21 @@ font-size: 1.3em;
     
 	}
 	#heading{font-family: alex;
-	color: white;
+	color: #ffd700;
 	font-size: 8em;
 	position: absolute;
 	top:16%;
 	margin-left:40%;
 	}
 	#heading1{font-family: alex;
-	color: white;
+	color: #ffd700;
 	font-size: 7em;
 	position: absolute;
 	top:16%;
 	margin-left:27%;
 	}
 	
-	#venue{font-family: AR CENA, comic sans MS;
+	#venue{font-family: AR CENA,cooper black,comic sans MS;
 position:relative;
 margin-top: 10px;
 	margin-left:1%;
@@ -133,7 +134,7 @@ margin-top: 10px;
 	font-size:1.2em;
 	}
 	span{ color:white;
-	font-family: AR CENA,comic-sans MS;
+	font-family: AR CENA;
 	text-align:center;
     margin-left:4%;
 	margin-top: 5%;
@@ -187,7 +188,7 @@ box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
 -webkit-transition: all 0.7s ease;
 transition: all 0.7s ease;
 }
-.sidebar img{float:right;
+.sidebar img{float:left;
 margin-top:22px;
 }
 .sidebar h2{text-align:center;
@@ -205,87 +206,65 @@ margin: 20px;
 margin-top:20%;
 
 }
-#contactcontent:
-{margin-top:150px;
-margin-left:50%;
-color:white;
+.contactcontent:
+{margin-top:100px;
+margin-left:40%;
+padding:20%;
+color:black;
+background;white;
 width:60%;
+height:1000px;
 font-family:comic-sans;
 font-size: 2em;
-float:right;
 }
-#e{
-border: 1px dotted white;
-background-color: rgba(0,0,0,0.7);
-position:absolute;
-color:white;
-margin-left:20px;
-top: 50%;
-width: 40%;
-height:45%;}
-input [type="textarea"]{color:white;
-
-width: 400px;
-height: 300px;
+input[type="text"],input[type="email"] {
+	border: none;
+	-webkit-box-shadow: -3px 3px 2px 0 #ccc inset;
+	box-shadow: -3px 3px 2px 0 #ccc inset;
+	padding: .4em 1em;
+	width: 30%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: .8em;
+	margin: 2em auto 1em;
+	padding: .8em;
+	display:block;
+	margin-left:40%;
+	top:60%;
+	font-family:comic-sans;
 }
-input[type="submit"]{
-background-color: transparent;
-	border-color: transparent;
+input[type="submit"][class="button"] {
+position:relative;
+	font-size: 1em;
+	cursor: pointer;
+	margin: 2em auto 1em;
+	padding: .8em;
+	display: block;
+	width: 20%;
+	margin-left:40%;
+	
+}
+input[type="submit"][class="button"]:hover {
+	background-color: #d4326d;
+}
+.button {
+	background-color: blue;
 	color: white;
-  width:20%;
-  height: 30px;
-  font-size: 24px;
-  position: relative;
-  left: 70%;
-  margin-top: 30px;
-  transition:all 1s ease-out;
+	border-radius: 8px;
+	border: 2px solid white
+  width:10%;
   
 }
-input[type="submit"]: hover {
-transition : all 1s ease-out;
-background-color: rgba(194,123,2,0.75);
-
-}
-#group{
-margin: 30px;
-}
-#group >label {
-margin-right: 20px;
-color: white;
-font-family: open;
-}
-#group>input {
-width : 70%;
-height: 30px;
-float: right;
-opacity: 0.5;
-background-color: rgba(0,0,0,0.75);
-}
-#group>input[type="textarea"] {
-height : 50px;
-}
-.organisers{ 
+#e{background-image:url("../images/p.jpg");
+background-size:cover;
+position:static;
+padding:10px;
+margin-top:20%;
+border:10px solid black;
+margin-left:40%;
+margin-right:5%;
+height:40%;
 float:right;
-width:600px;
-margin-top:200px;
-padding:20px;
-text-align:center;
-
-}
-.pho{position:relative;
-margin-right:20px;
-padding:15px;
-display:inline-block;
-
-}
-.pho img{
-display:inline-block;}
-
-#contactname
-{
-top: 25%;
-left: 62%;
-font-family: AR CENA,comic sans MS;
-font-size: 2em;
-color: white; 
-}
+width:30%;}
