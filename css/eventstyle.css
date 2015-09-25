@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: alex;
+	src: url(alex.ttf);
+}
+*{
+	animation-delay: 0.1s;
+}
+@font-face{
+	font-family: open;
+	src: url(open.ttf)
+}
+@font-face{
+	font-family: prompt;
+	src: url(prompt.ttf);
+}
+#home {
+	background-image: url(../images/party.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#title{
+	font-family: alex;
+	color: white;
+	font-size: 10em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	line-height: 0.6;
+	transform: translate(-50%,-50%);
+}
+#titleevent{
+	font-family: alex;
+	color: white;
+	font-size: 10em;
+	position: absolute;
+	top: 20%;
+	left: 33%;
+	line-height: 0.6;
+	transform: translate(-50%,-50%);
+}
+
+#titleevent2{
+	font-family: alex;
+	color: white;
+	font-size: 10em;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	line-height: 0.6;
+	transform: translate(-50%,-50%);
+}
+
+#itf {
+	font-size: 0.25em;
+	position: relative;
+	left: 70%;
+}
+#links-home{
+	text-decoration:none;
+	position:relative;
+	float: left;
+	display:inline-block;
+	font-family:open;
+	font-size:0.18em;
+	line-height: 3;
+}
+#links-home>a:hover{
+	background-color: rgba(194,123,2,1.00);
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+	-webkit-transition: all 0.5s ease-out 0s;
+	-o-transition: all 0.5s ease-out 0s;
+	transition: all 0.5s ease-out 0s;
+	padding: 10px;
+}
+.event-cards>a :hover {
+	background-color:transparent;
+}
+
+.lastImage>a :hover {
+ background-color:transparent;
+}
+#eventsbg{
+	background-image:url(../images/events.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color: rgba(11,10,18,1.00);
+}
+main{
+	color:white;
+}
+#links-events{
+	font-family:open;
+	font-size: 1.3em;
+	margin-top: 10px;
+}
+#links-events >a:hover{
+	background-color:#3350A2;
+}
+
+.event-cards>a>img{
+	width: 500px;
+	float: left;
+	margin: 45px;
+	opacity: 0.7;
+	height: 280px;
+}
+.event-cards{
+	position: absolute;
+	top: 110%;
+	left: 3%;
+	margin:auto;
+}
+
+.typed-body{
+	color:white;
+	font-family: prompt;
+	font-size: 2em;
+	position:absolute;
+	top:70%;
+	left: 20%;
+	transform: (-50%, -50%);
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+	color:white;
+}
+.lastImage{
+	width: 400px;
+}
+.lastImage>a>img{
+	width: 500px;
+	position: absolute;
+	top: 230%;
+	left: 28%;
+	transform:(-50%, -50%);
+	margin-bottom: 30px;
+}
+
+
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+#rhapsody{
+	background-image: url("../images/singing2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+
+.eventname
+{
+    font-family: alex;
+	color: white;
+	font-size: 8em;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	line-height: 0.6;
+	transform: translate(-50%,-50%);
+
+}
+
+
+
+.pcontent
+{
+position: absolute;
+text-align: left;
+top: 34%;
+left: 28%;
+font-family: AR CENA,Arial Rounded MT Bold,Cooper black,Franklin Gothic Demi;
+color: white;
+font-size: 2em;
+width: 600px;
+}
+
+.organisers
+{
+position: absolute;
+font-family: comic sans MS;
+font-size: 2em;
+color: white;
+font family: comic sans MS;
+top: 70%;
+left: 28%;
+float: right;
+
+}
+.pcontent2
+{
+position: absolute;
+top: 75%;
+left: 28%;
+float:right;
+font-size: 1.2em;
+font-family: comic sans MS;
+color: white;
+}
+
+
+
+
+#foxtrot
+{
+background-image: url(../images/dance2.jpg);
+background-size: cover;
+background-repeat: no repeat;
+}
+
+#skit
+{
+background-image: url(../images/drama2.jpg);
+background-size: cover;
+background-repeat: no repeat;
+}
+
+#spacewalk 
+{
+background-image: url(../images/r.jpg);
+background-size: cover;
+background-repeat: no repeat;
+
+}
+
+#cognitio
+{
+background-image: url(../images/pi2.jpg);
+background-size: cover;
+background-repeat: no repeat;
+}
+
+
+#links-events2 {
+	font-family: open;
+	font-size: 1.3em;
+	margin-top: 10px;
+}
+#links-events2>a:hover{
+	background-color: #8B0000;
+	}
+
+
+
+#links-events3 {
+	font-family: open;
+	font-size: 1.3em;
+	margin-top: 10px;
+}
+#links-events3>a:hover{
+	background-color: rgba(194,123,2,1.00);
+	}	
+	
+	
+
+#links-events4 {
+	font-family: open;
+	font-size: 1.3em;
+	margin-top: 10px;
+}
+#links-events4>a:hover{
+	background-color: rgba(70,40,30);
+	}	
+	
+	#bgtransparent {
+background-color: rgba(0,0,0,0.7);
+}
