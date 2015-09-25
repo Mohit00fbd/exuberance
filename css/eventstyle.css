@@ -105,7 +105,6 @@ main{
 
 .event-cards>a>img{
 	width: 500px;
-	float: left;
 	margin: 45px;
 	opacity: 0.7;
 	height: 280px;
@@ -143,6 +142,7 @@ main{
 	left: 28%;
 	transform:(-50%, -50%);
 	margin-bottom: 30px;
+	opacity: 0.7;
 }
 
 
@@ -196,7 +196,7 @@ top: 34%;
 left: 28%;
 font-family: AR CENA,Arial Rounded MT Bold,Cooper black,Franklin Gothic Demi;
 color: white;
-font-size: 2em;
+font-size: 1.5em;
 width: 600px;
 }
 
@@ -289,4 +289,12 @@ background-repeat: no repeat;
 	
 	#bgtransparent {
 background-color: rgba(0,0,0,0.7);
+}
+.event-cards > a > img:hover{
+	opacity: 1;
+	border-radius: 20px;
+}
+.lastImage>a>img:hover{
+	opacity: 1;
+	border-radius: 20px;
 }
